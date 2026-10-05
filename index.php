@@ -1,5 +1,6 @@
 <?php 
-requise_once ."./../models/pessoa.php";
+
+require_once __DIR__ .'/models/pessoa.php';
 
 
 

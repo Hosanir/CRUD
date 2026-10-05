@@ -1,5 +1,6 @@
 <?php
-require_once __DIR__ .'/../configs/conexao.php';
+
+require_once __DIR__ .'/../config/conexao.php';
 
 class Pessoa
 {
@@ -91,7 +92,7 @@ class Pessoa
 
     //carrega todos os registros
     public static function listar()
-
+    {
         try {
             $conexao = Conexao::conectar();
             $sql = "SELECT * FROM pessoa";
